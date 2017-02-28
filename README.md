@@ -49,9 +49,9 @@ If you have completed the tutorial this far, it means you are ready to start cod
 ## Accessing the BiGG API
 While it may be easy to access information on models, reactions, metabolites, and genes by simply using the frontend search engine of [BiGG](bigg.ucsd.edu), the researchers and students and UCSD have also provided us a RESTful webservice to access the data in the BiGG database in an automated fashion.
 
-The information on how to access BiGG via its API can be (found here)[http://bigg.ucsd.edu/data_access].  You will notice that they provide `curl` examples.  While it is possible to make system calls through python using `curl`, there is a much cleaner way:  using `requests` library to access data directly.
+The information on how to access BiGG via its API can be [found here](http://bigg.ucsd.edu/data_access).  You will notice that they provide `curl` examples.  While it is possible to make system calls through python using `curl`, there is a much cleaner way:  using `requests` library to access data directly.
 
-###First lines of code
+### First lines of code
 Let's begin by creating our `main.py` file:
 
 ```bash
@@ -60,6 +60,7 @@ touch main.py
 
 Opening `main.py` in our favorite text editor or IDE, we will begin by importing `requests`:
 ```python
+# main.py
 import requests
 ```
 
