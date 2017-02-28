@@ -13,10 +13,9 @@ If you are not familiar with the following concepts, it is highly suggested you 
 1. Python programming language (we will be using python 2.7)
 2. REST (Representational State Transfer) - [Wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
-
 ## Getting Started
 
-Make sure you create a folder for the work that will do:
+Make sure you create a folder for the work that you will do:
 
 ```bash
 mkdir web-service-bio-tutorial
@@ -31,6 +30,7 @@ virtualenv venv
 virtualenv -p /usr/bin/python2.7 venv
 source venv/bin/activate
 ```
+> If you don't have pip, you may need to install it (on Ubuntu: sudo apt-get install python-pip)
 
 You may notice now that there is a `(venv)` marker at the beginning of your terminal line.  This means it worked!
 
@@ -102,7 +102,7 @@ The third line (`bigg_info = res.json()`) is the most important line.  Here we t
 
 The fourth line simply prints the `bigg_models_version`. 
 
-Awesome!  He have our first RESTful access of the BiGG API (and it only took 5 lines of code)!
+Awesome!  We now have our first RESTful access of the BiGG API (and it only took 5 lines of code)!
 
 ### Getting more useful information from BiGG in Python
 OK, so we got some basic information, but what if we wanted to get information about a specific reaction such as Adenosine deaminase?  Let's go to the BiGG docs:
