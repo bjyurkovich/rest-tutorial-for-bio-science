@@ -36,7 +36,7 @@ You may notice now that there is a `(venv)` marker at the beginning of your term
 
 Now that we are running in our virtual environment (our sandbox), we need to install a dependency:
 
-1. [Requests](http://docs.python-requests.org/en/master/) - a nice HTTP library that will help us access the BiGG API
+> [Requests](http://docs.python-requests.org/en/master/) - a nice HTTP library that will help us access the BiGG API
 
 To install the dependency, we will run:
 
