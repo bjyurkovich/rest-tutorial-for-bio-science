@@ -133,13 +133,13 @@ for metabolite in ada_reaction_info["metabolites"]:
 
 ```
 
-You will notice that we first got the `Adenosine deaminase` reaction, and then from that, we looped through, each time requesting more general information about the metabolite based on its `bigg_id`.  In this tutorial, we simply printed the name of the metabolite and the first formula associated with it.  However, in your application, with a little knowledge of python, you can use that information and combine it.
+You will notice that we first got the `Adenosine deaminase` reaction, and then from that, we looped through, each time requesting more general information about the metabolite based on its `bigg_id`.  In this tutorial, we simply printed the name of the metabolite and the first formula associated with it.  However, in your application, with a little knowledge of python, you can use that information and add to it based on your specific needs.
 
 
 ## Finishing up
 In this brief (and very basic) tutorial, we showed you how to access a database (BiGG) full of biological information.  You can use this as a starter to add the ability to automate the harvesting of information for your python projects and research.
 
-If you felt like it was too much work to copy and paste the few lines of python code above into your own python environment, don't worry you can always clone this repo with the python file in it and run in a terminal:
+If you felt like it was too much work to copy and paste the few lines of python code above into your own python environment, don't worry, you can always clone this repo with the python file in it and run in a terminal:
 
 ```bash
 #Clone repo and cd into the cloned folder
